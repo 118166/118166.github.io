@@ -2,7 +2,7 @@
   
   /* Style the header */
   header {
-    background-color: SteelBlue;
+    background-color: rgb(119, 125, 129);
     padding: 30px;
     text-align: center;
     font-size: 45px;
@@ -15,7 +15,7 @@
     padding: 30px;
     font-size: 20px;
     text-align: center;
-    color: rgb(116, 163, 130);
+    color: rgb(246, 248, 247);
   }
    
   
