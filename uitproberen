@@ -111,3 +111,143 @@ footer {
 
 </body>
 </html>
+
+
+
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: SteelBlue;
+  padding: 30px;
+  text-align: center;
+  font-size: 45px;
+  color: black;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  background: SkyBlue;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: LightBlue;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: SteelBlue;
+  padding: 10px;
+  text-align: center;
+  color: black;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+
+
+<header>
+  <h2> Drielagenmodel</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="Drielagenmodel.html"> Drielagenmodel</a></li>
+      <li><a href="moederbord.html"> Moederbord </a></li>
+      <li><a href="besturingssysteem.html"> Besturingssysteem </a></li>
+      <li><a href="processor-en-geheugen.html"> Processor en geheugen</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1> Drielagenmodel</h1>
+    <p> In bijna alle ICT-producten kun je drie lagen onderscheiden. Bij laptops en desktop-pc’s is de indeling erg vergelijkbaar met die van een smartphone. 
+    De fysieke laag bestaat bijvoorbeeld uit vergelijkbare soorten hardware en de logische laag bestaat ook ui een besturingssysteem.
+      Ook in de werking van het internet kun je drie lagen herkennen.</p>
+    
+    <p>In dit hoofdstuk ga je bij een paar belangrijke voorbeelden zien hoe de fysieke laag, logische en toepassingenlaag met elkaar samenwerken.<br> <br> 
+    
+    <p> <strong> De toepassingenlaag:</strong> </p>
+    
+    <p> De toepassingenlaag uit allerlei software. Als we even de smartphone als voorbeeld nemen dan zijn het op een smartphone alle apps die kunnen worden 
+      geïnstalleerd vanuit PlayStore of App-Store. De software in de toepassingenlaag kan alleen contact maken met de fysiekelaag via de logsichelaag.
+      Daarbij is het dus niet mogelijk dat bijvoorbeeld een app een hardware kan aansturen. Een toepassingslaag of applicatielaag is een abstractielaag 
+      die communicatieprotocollen en koppelvlakken ("interfaces") specificeert. Dit maakt het mogelijk dat computers met elkaar kunnen communiceren over 
+      telecommunicatienetwerken en computernetwerken.
+    </p>
+    
+    
+    <p> <strong> De Logischelaag:</strong> </p>
+    <p> De logischelaag wordt ook wel gezien als een koppeling tussen de fysiekelaag en teopassingenlaag. Naast de scheiding tussen de hardware en de 
+      software, is er ook een scheiding tussen de universele systeemsoftware (logische laag) en de toepassingen. </P>
+    
+  <p> <strong> De fysiekelaag:</strong> </p>
+  <p> De fysieke laag is de eerste laag uit het OSI-model. De fysiekelaag bestaat uit de hardware die bijvoorbeeld in de smartphone zit. Hierbij kan je 
+    denken aan de accu tot en met het touchscreen.
+    Deze bevat de elektrische en mechanische definities van transportmedium en het signaal. De fysieke laag beschrijft drie zaken: Het vertalen van
+    binaire informatie in een signaal en andersom. </p>
+  
+    
+    <strong> De Interfaces:</strong>
+    hardware interface
+    software interface
+    user interface
+    
+    
+    
+    
+    
+    
+    </p>
+    
+  </article>
+</section>
+
+<footer>
+  <p>Footer</p>
+</footer>
+
+</body>
+</html>
+Footer
+
