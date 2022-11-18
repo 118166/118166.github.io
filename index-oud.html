@@ -240,3 +240,21 @@
     text-align: center;
     color: black;
   }
+
+
+
+  /* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 100%;
+  background: SkyBlue;
+  padding: 20px;
+}
