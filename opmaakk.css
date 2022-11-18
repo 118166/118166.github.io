@@ -1,10 +1,4 @@
-* {
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-  }
+
   
   /* Style the header */
   header {
@@ -47,6 +41,13 @@
   }
 
 
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
 
   /* Create two columns/boxes that floats next to each other */
   nav {
